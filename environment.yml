@@ -1,4 +1,4 @@
-name: gspose
+name: gcmpose
 channels:
   - pytorch
   - conda-forge
