@@ -4,7 +4,7 @@ This repository contains submodules, and the default environment can be installe
 
 ``` Bash
 conda env create -f environment.yml
-conda activate gspose
+conda activate gcmpose
 ```
 
 ## Acknowledgement
