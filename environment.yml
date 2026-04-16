@@ -1,0 +1,26 @@
+name: gspose
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - xformers
+dependencies:
+  - python==3.8.5
+  - plyfile==0.8.1
+  - cudatoolkit==11.7
+  - pip:
+    - mmcv==1.7.1
+    - tqdm==4.66.2
+    - pillow==9.3.0
+    - mediapy==1.1.4
+    - open3d==0.16.0
+    - trimesh==3.18.0
+    - ninja==1.11.1.1
+    - structlog==23.1.0
+    - pycocotools==2.0.6
+    - webdataset==0.2.48
+    - transforms3d==0.4.1
+    - tensorboard==2.11.2
+    - scikit-image==0.19.3
+    - opencv-python==4.8.0.76
+    - pytorch-msssim==1.0.0
